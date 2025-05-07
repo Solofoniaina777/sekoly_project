@@ -1,0 +1,37 @@
+@import url('theme.css');
+@import url('bouton.css');
+@import url('layout.css');
+@import url('champ_saisie.css');
+@import url('select.css');
+.table {
+    font-family: 'Montserrat', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size:smaller;
+    color: var(--color-police)
+  }
+  
+  .table tr:nth-child(even){background-color: var(--color-secondaire);}
+  
+  .table tr:hover {
+    background-color: var(--color-other3);
+}
+  
+  .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: var(--color-primaire);
+    color: var(--color-background);
+    font-size: small;
+  }
+
+  .col_center{
+    text-align: center;
+  }

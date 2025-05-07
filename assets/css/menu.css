@@ -1,0 +1,25 @@
+.menu {
+    width: 12%; /* Set a width if you like */
+    background-color: var(--color-primaire);
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+  }
+  .menu a {
+    background-color: var(--color-primaire); /* Grey background color */
+    color: var(--color-secondaire); /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .menu a:hover {
+    background-color: var(--color-secondaire); /* Dark grey background on mouse-over */
+    color: var(--color-primaire);
+    font-style: bold;
+  }
+  
+  .menu a.active {
+    background-color: var(--color-secondaire); /* Add a green color to the "active/current" link */
+    color: var(--color-primaire);
+    font-style: bold;
+  }

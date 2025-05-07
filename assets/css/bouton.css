@@ -1,0 +1,40 @@
+.btn-nouveau {
+    background-color: var(--color-other1);
+    cursor: pointer;
+    font-size: small;
+    margin: 0 4px;
+    color : var(--color-background);
+    /* display: inline-block; */
+    /* margin-bottom: 15px; */
+    padding: 5px 8px;
+    text-decoration: none;
+    border-radius: 4px;
+    /* display: flex;  */
+    /* justify-content: flex-end; */
+    float: right;
+    height: 30px;
+}
+.btn-nouveau:hover {
+    background-color: var(--color-secondaire);
+    color : var(--color-police);
+}
+
+.btn-simple{
+    background-color: var(--color-other3);
+    cursor: pointer;
+    font-size: small;
+    margin: 0 4px;
+    color : var(--color-background);
+    /* display: inline-block; */
+    /* margin-bottom: 15px; */
+    padding: 5px 8px;
+    text-decoration: none;
+    border-radius: 4px;
+    /* display: flex;  */
+    /* justify-content: flex-end; */
+    height: 30px;
+}
+.btn-simple:hover {
+    background-color: var(--color-secondaire);
+    color : var(--color-police);
+}

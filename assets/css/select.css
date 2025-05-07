@@ -1,0 +1,7 @@
+.select {
+    border-radius: 5px;
+    background-color: var(--color-background);
+    cursor: pointer;
+    font-size: small;
+    height: 30px;
+  }
