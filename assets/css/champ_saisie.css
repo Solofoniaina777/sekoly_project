@@ -1,4 +1,9 @@
 .champ_saisie{
     margin-bottom: 10px;
     margin-top: 10px;
+    outline: none;      /* enlève le contour bleu par défaut */
+  box-shadow: none;   /* enlève les ombres (ex: Bootstrap, Chrome) */
+border-style:groove;
+border-color: var(--color-other3);
+border-width: 0.5px; 
 }

@@ -23,7 +23,7 @@ $classe = f_execute_query($req_classe);
     <span  class="page_title">| Liste des étudiants</span>
     <div>
     <input class="champ_saisie" type="text" id="recherche" placeholder="Rechercher...">
-    <select class="select" id="niveau" name="niveau">
+    <select class="select-wrapper" id="niveau" name="niveau">
   <option value="">-- Classe --</option>
   <?php 
    echo f_select_content_value($classe,"id_classe","code");
