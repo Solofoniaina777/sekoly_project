@@ -1,6 +1,7 @@
 <?php
 include 'constante.php';
 
+
 function f_execute_query($sqlcode)
 {
     // Connexion à la base de données avec PDO

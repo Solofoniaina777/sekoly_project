@@ -1,5 +1,6 @@
 <?php
 include '../../../config/db.php'; 
+include '../../../config/functions.php'; 
 include '../../../views/layouts/header.php'; 
 
 $req_etudiant='SELECT * FROM tb_etudiant ORDER BY id_etudiant';
@@ -25,10 +26,8 @@ $classe = f_execute_query($req_classe);
     <select class="select" id="niveau" name="niveau">
   <option value="">-- Classe --</option>
   <?php 
-  foreach ($classe as $row) {
-    echo '<option value="' . htmlspecialchars($row['id']) . '">'
-         . htmlspecialchars($row['code']) . '</option>';
-}?>
+   echo f_select_content_value($classe,"id_classe","code");
+?>
 </select>
     <a class="btn-simple">Rechercher</a>
     <a href="student_fiche.php?id=0" class="btn-nouveau">Nouveau</a>
