@@ -39,6 +39,7 @@ $classe = f_execute_query($req_classe);
                 <th>Nom</th>
                 <th>Prénom</th>
                 <th>Adresse</th>
+                <th>Date inscription</th>
                 <th>Action</th>
             </tr>
         </thead>
@@ -49,6 +50,7 @@ $classe = f_execute_query($req_classe);
                 <td><?= htmlspecialchars($eleve['nom']) ?></td>
                 <td><?= htmlspecialchars($eleve['prenom']) ?></td>
                 <td><?= htmlspecialchars($eleve['adresse']) ?></td>
+                <td class="col_center"><?= htmlspecialchars($eleve['date_inscription']??'') ?></td>
                 <td class="col_center">
                 <a href="student_fiche.php?id=<?= $eleve['id_etudiant'] ?>" title="Éditer">
                     <img src="https://cdn-icons-png.flaticon.com/512/1159/1159633.png" alt="Éditer" width="20" height="20">
@@ -66,6 +68,6 @@ $classe = f_execute_query($req_classe);
 </body>
 
 <script>
-  setColumnWidths("table_etudiant", ["20%", "30%", "20%","20%","10%"]);
+  setColumnWidths("table_etudiant", ["10%", "40%", "15%","15%","10%","10%"]);
 </script>
 </html>
