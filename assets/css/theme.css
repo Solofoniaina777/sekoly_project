@@ -33,3 +33,8 @@
     font-family: "Police1";
   }
   
+  label {
+
+    margin-bottom: 5px;
+    color : var(--color-police);
+  }

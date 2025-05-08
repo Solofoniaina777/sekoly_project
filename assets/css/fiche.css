@@ -1,0 +1,17 @@
+.form {
+    margin-top: 20px;
+  }
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .form-group {
+    display: flex;
+  flex-direction: row; /* <-- label + input en ligne */
+  align-items: center;
+  gap: 10px; /* espace entre label et input */
+  }

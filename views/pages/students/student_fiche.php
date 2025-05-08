@@ -24,10 +24,20 @@ if (isset($_GET['id'])) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="<?php echo CST_BASE_URL; ?>assets/css/table.css">
+    <link rel="stylesheet" href="<?php echo CST_BASE_URL; ?>assets/css/all_style.css">
     <title>Document</title>
 </head>
 <body>
 <div class="contenu">
     <span  class="page_title">| Fiche de <?php echo $eleve[0]['nom'].' '.$eleve[0]['prenom']; ?></span>
+    <form class="form" method="post" action="sauvegarder_eleve.php">
+    <div class="form-grid">
+    <div class="form-group">
+      <label for="nom">Nom :</label>
+    <input class="champ_saisie" type="text" name="nom" value="<?= htmlspecialchars($eleve[0]['nom'] ?? '') ?>">  </div>
+    <div class="form-group">
+      <label for="prenom">Prénom :</label>
+      <input class="champ_saisie" type="text" name="prenom" value="<?= htmlspecialchars($eleve[0]['prenom'] ?? '') ?>">
+    </div>
+    </form>
 </body>

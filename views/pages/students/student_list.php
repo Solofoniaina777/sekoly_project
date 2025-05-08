@@ -13,7 +13,7 @@ $classe = f_execute_query($req_classe);
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="<?php echo CST_BASE_URL; ?>assets/css/table.css">
+    <link rel="stylesheet" href="<?php echo CST_BASE_URL; ?>assets/css/all_style.css">
     <title>Document</title>
     <script src="<?php echo CST_BASE_URL; ?>assets/js/function.js"></script>
 </head>

@@ -1,8 +1,4 @@
-@import url('theme.css');
-@import url('bouton.css');
-@import url('layout.css');
-@import url('champ_saisie.css');
-@import url('select.css');
+
 .table {
     font-family: 'Montserrat', sans-serif;
     border-collapse: collapse;
